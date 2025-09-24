@@ -169,7 +169,7 @@
         },
         {
           "type": "solo",
-          "note": "Ищет партнёа",
+          "note": "Ищет партнёра",
           "noteType": "looking",
           "statuses": [
             "Готова к подбору",
