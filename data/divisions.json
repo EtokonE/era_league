@@ -73,6 +73,22 @@
           "tier": "silver",
           "players": [
             {
+              "name": "Сергей Шевелев",
+              "rating": 1.98,
+              "photo": ""
+            },
+            {
+              "name": "Евгений Коршунов",
+              "rating": 2.62,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "tier": "silver",
+          "players": [
+            {
               "name": "Артём Михайлов",
               "rating": 2.11,
               "photo": ""
