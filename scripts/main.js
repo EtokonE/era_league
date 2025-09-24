@@ -160,6 +160,13 @@
     return sum / ratings.length;
   };
 
+  const entryHasPhoto = (entry) => {
+    if (!entry || !Array.isArray(entry.players)) {
+      return false;
+    }
+    return entry.players.some((player) => player && typeof player.photo === 'string' && player.photo.trim() !== '');
+  };
+
   const assignGroupTier = (entry, division) => {
     if (!entry || entry.type === 'cta') {
       return entry;
@@ -544,6 +551,13 @@
     section.appendChild(head);
 
     const { teams, ctas } = splitEntries(division);
+    const sortedTeams = teams.slice().sort((a, b) => {
+      const hasPhotoDiff = Number(entryHasPhoto(b)) - Number(entryHasPhoto(a));
+      if (hasPhotoDiff !== 0) {
+        return hasPhotoDiff;
+      }
+      return 0;
+    });
     if (!teams.length && !ctas.length) {
       section.appendChild(createEl('p', {
         className: 'card-section__hint',
@@ -554,7 +568,7 @@
     }
 
     const grid = createEl('div', { className: 'team-grid' });
-    teams.forEach((entry) => {
+    sortedTeams.forEach((entry) => {
       grid.appendChild(renderTeamCard(entry));
     });
     ctas.forEach((entry) => {
