@@ -136,6 +136,39 @@
           ]
         },
         {
+          "players": [
+            {
+              "name": "Владимир Счастливый",
+              "photo": "",
+              "rating": 1.82
+            }
+          ],
+          "tier": "silver",
+          "type": "solo",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ]
+        },
+        {
+          "players": [
+            {
+              "name": "Артем Погодин",
+              "photo": "",
+              "rating": 3.6
+            },
+            {
+              "name": "Александр Мулин",
+              "photo": "",
+              "rating": 4.2
+            }
+          ],
+          "tier": "gold",
+          "type": "team"
+        },
+        {
           "type": "cta",
           "tier": "all",
           "title": "Присоединиться к сезону",
@@ -179,7 +212,7 @@
             {
               "name": "Кристина Зотова",
               "rating": 1.54,
-              "photo": ""
+              "photo": "images/Кристина_Зотова.jpg"
             }
           ]
         },
