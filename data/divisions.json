@@ -43,12 +43,12 @@
             {
               "name": "Стас Зотов",
               "rating": 1.95,
-              "photo": ""
+              "photo": "images/Stanislav_Zotov.jpg"
             },
             {
               "name": "Алексей Федоров",
               "rating": 2.91,
-              "photo": "images/Stanislav_Fedorov.jpg"
+              "photo": "images/Alexey_Fedorov.jpg"
             }
           ]
         },
