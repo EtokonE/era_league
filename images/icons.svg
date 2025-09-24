@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <symbol id="icon-user" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12 12.25a4.25 4.25 0 1 0-4.25-4.25A4.25 4.25 0 0 0 12 12.25Zm0 2.5c-3.43 0-7.25 1.8-7.25 4.25A1 1 0 0 0 5.75 20h12.5a1 1 0 0 0 1-1c0-2.45-3.82-4.25-7.25-4.25Z" />
+  </symbol>
+  <symbol id="icon-plus" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12 5a1 1 0 0 1 1 1v5h5a1 1 0 1 1 0 2h-5v5a1 1 0 1 1-2 0v-5H6a1 1 0 1 1 0-2h5V6a1 1 0 0 1 1-1Z" />
+  </symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24">
+    <path fill="currentColor" d="m12 10.586 4.95-4.95a1 1 0 0 1 1.414 1.415L13.414 12l4.95 4.95a1 1 0 1 1-1.414 1.414L12 13.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L10.586 12l-4.95-4.95A1 1 0 0 1 7.05 5.636Z" />
+  </symbol>
+</svg>

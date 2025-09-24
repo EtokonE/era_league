@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ERA Padel League — Регистрация на сезон</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">Регистрация открыта до 30.09</h1>
+        <p class="hero__subtitle">
+          ERA Padel League собирает команды в дивизионы Silver, Gold, Ladies и Mix. Ниже — подтверждённые пары и одиночные заявки,
+          обновляемые в реальном времени.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdRTfmzO4fhf2z4kAp5zxBISki0gIE0uSc55lkXofglKNaQUw/viewform?usp=dialog" target="_blank" rel="noopener">Подать заявку</a>
+          <a class="button button--secondary" href="#divisions">Список команд</a>
+        </div>
+        <p class="hero__note">Первый сезон: 1 Окт — 1 Ноя 2025</p>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="divisions" id="divisions">
+        <div class="container divisions__inner">
+          <nav class="divisions__nav" aria-label="Дивизионы">
+            <div class="tabs tabs--primary" role="tablist" data-division-tabs></div>
+          </nav>
+          <div class="divisions__panel" data-division-panel></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-note">Последнее обновление: <span data-updated-at>—</span></footer>
+  </div>
+
+  <div class="lightbox" data-lightbox hidden>
+    <div class="lightbox__backdrop" data-lightbox-close></div>
+    <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Просмотр фото игрока">
+      <button type="button" class="lightbox__close" data-lightbox-close aria-label="Закрыть">
+        <svg class="icon" aria-hidden="true">
+          <use href="images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <img class="lightbox__image" data-lightbox-image alt="Фото игрока" loading="lazy" />
+    </div>
+  </div>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>

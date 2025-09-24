@@ -1,0 +1,259 @@
+{
+  "updatedAt": "2024-05-12",
+  "divisions": [
+    {
+      "id": "men",
+      "title": "Базовый дивизион",
+      "subtitle": "Команды уровня Silver и Gold",
+      "groups": [
+        {
+          "id": "silver",
+          "label": "Silver"
+        },
+        {
+          "id": "gold",
+          "label": "Gold"
+        }
+      ],
+      "defaultGroup": "all",
+      "groupThresholds": {
+        "gold": 3.0
+      },
+      "entries": [
+        {
+          "type": "team",
+          "tier": "gold",
+          "players": [
+            {
+              "name": "Максим Калинин",
+              "rating": 4.62,
+              "photo": "images/Максим_Калинин.jpg"
+            },
+            {
+              "name": "Осипов Степан",
+              "rating": 3.0,
+              "photo": "images/Степа_Осипов.jpg"
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "tier": "silver",
+          "players": [
+            {
+              "name": "Стас Зотов",
+              "rating": 1.95,
+              "photo": ""
+            },
+            {
+              "name": "Алексей Федоров",
+              "rating": 2.91,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "tier": "silver",
+          "players": [
+            {
+              "name": "Тимур Чарыев",
+              "rating": 2.88,
+              "photo": ""
+            },
+            {
+              "name": "Артем Логинов",
+              "rating": 2.5,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "tier": "silver",
+          "players": [
+            {
+              "name": "Артём Михайлов",
+              "rating": 2.11,
+              "photo": ""
+            },
+            {
+              "name": "Дмитрий Горохов",
+              "rating": 3.05,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "tier": "silver",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Павел Туманов",
+              "rating": 2.54,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "tier": "silver",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Арсений Селиванов",
+              "rating": 1.9,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "tier": "gold",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Сергей Уханов",
+              "rating": 3.2,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "tier": "all",
+          "title": "Присоединиться к сезону",
+          "description": "Хотите попасть в подборку и сыграть в ERA League? Заполните форму, и мы подберём дивизион по уровню.",
+          "action": {
+            "label": "Подать заявку",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSdRTfmzO4fhf2z4kAp5zxBISki0gIE0uSc55lkXofglKNaQUw/viewform?usp=dialog"
+          }
+        }
+      ]
+    },
+    {
+      "id": "women",
+      "title": "Женский дивизион",
+      "subtitle": "Женские пары и одиночные заявки",
+      "entries": [
+        {
+          "type": "team",
+          "players": [
+            {
+              "name": "Серафима Кардакова",
+              "rating": 1.8,
+              "photo": ""
+            },
+            {
+              "name": "Елена Лежнина",
+              "rating": 1.8,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "note": "Ищет партнёа",
+          "noteType": "looking",
+          "statuses": [
+            "Готова к подбору",
+            "Добавьте контакты в заявке"
+          ],
+          "players": [
+            {
+              "name": "Кристина Зотова",
+              "rating": 1.54,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "players": [
+            {
+              "name": "Кокоркина Кристина",
+              "rating": 1.08,
+              "photo": ""
+            },
+            {
+              "name": "Полина Белякова",
+              "rating": 1.03,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "players": [
+            {
+              "name": "Светлана Баумова",
+              "rating": 1.46,
+              "photo": ""
+            },
+            {
+              "name": "Виктория Баркова",
+              "rating": 1.89,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Нужна напарница?",
+          "description": "Заполните форму, и мы поможем найти напарницу для участия в ближайших матчах.",
+          "action": {
+            "label": "Оставить заявку",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSdRTfmzO4fhf2z4kAp5zxBISki0gIE0uSc55lkXofglKNaQUw/viewform?usp=dialog"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mix",
+      "title": "Смешанный дивизион",
+      "subtitle": "Идеален для микс-пар разного уровня",
+      "entries": [
+        {
+          "type": "team",
+          "players": [
+            {
+              "name": "Максим Калинин",
+              "rating": 4.62,
+              "photo": "images/Максим_Кристина1.jpg"
+            },
+            {
+              "name": "Кокоркина Кристина",
+              "rating": 1.08,
+              "photo": "images/Максим_Кристина2.jpg"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Присоединиться к сезону",
+          "description": "Не нашли пару? Расскажите о себе в форме — поможем собрать команду в миксе.",
+          "action": {
+            "label": "Заполнить анкету",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSdRTfmzO4fhf2z4kAp5zxBISki0gIE0uSc55lkXofglKNaQUw/viewform?usp=dialog"
+          }
+        }
+      ]
+    }
+  ]
+}
