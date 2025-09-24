@@ -322,7 +322,7 @@
     const tile = createEl('div', { className: 'player-tile player-tile--empty' });
     const media = createEl('div', { className: 'player-tile__media' });
 
-    const badge = createPill(`Игрок ${index + 1}`, 'neutral');
+    const badge = createPill(`Игрок ${index + 1}`, 'looking');
     badge.classList.add('player-tile__badge');
     media.appendChild(badge);
 
