@@ -119,23 +119,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "gold",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
-          "players": [
-            {
-              "name": "Сергей Уханов",
-              "rating": 3.2,
-              "photo": "images/Сергей_Уханов.jpg"
-            }
-          ]
-        },
-        {
           "players": [
             {
               "name": "Владимир Счастливый",
@@ -163,6 +146,22 @@
               "name": "Александр Мулин",
               "photo": "images/Саша_Мулин.jpg",
               "rating": 4.2
+            }
+          ],
+          "tier": "gold",
+          "type": "team"
+        },
+        {
+          "players": [
+            {
+              "name": "Сергей Уханов",
+              "rating": 3.2,
+              "photo": "images/Сергей_Уханов.jpg"
+            },
+            {
+              "name": "Денис Гаджиев",
+              "photo": "",
+              "rating": 3.9
             }
           ],
           "tier": "gold",
