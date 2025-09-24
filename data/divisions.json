@@ -64,7 +64,7 @@
             {
               "name": "Артем Логинов",
               "rating": 2.5,
-              "photo": "images/Артем_Погодин.jpg"
+              "photo": ""
             }
           ]
         },
@@ -156,7 +156,7 @@
           "players": [
             {
               "name": "Артем Погодин",
-              "photo": "",
+              "photo": "images/Артем_Погодин.jpg",
               "rating": 3.6
             },
             {
