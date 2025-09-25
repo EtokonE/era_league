@@ -152,6 +152,57 @@
           ]
         },
         {
+          "type": "solo",
+          "tier": "silver",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Никита Марзаев",
+              "rating": 3.30,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "tier": "silver",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Евгений Макаров",
+              "rating": 2.60,
+              "photo": ""
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "tier": "silver",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Артём Субботин",
+              "rating": 2.56,
+              "photo": ""
+            }
+          ]
+        },
+        {
           "players": [
             {
               "name": "Артем Погодин",
@@ -228,6 +279,22 @@
               "name": "Кристина Зотова",
               "rating": 1.54,
               "photo": "images/Кристина_Зотова.jpg"
+            }
+          ]
+        },
+        {
+          "type": "solo",
+          "note": "Ищет напарницу",
+          "noteType": "looking",
+          "statuses": [
+            "Готова к подбору",
+            "Добавьте контакты в заявке"
+          ],
+          "players": [
+            {
+              "name": "Маргарита Провоторова",
+              "rating": 1.0,
+              "photo": ""
             }
           ]
         },
