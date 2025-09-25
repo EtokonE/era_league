@@ -89,14 +89,30 @@
           "tier": "silver",
           "players": [
             {
+              "name": "Максим Прохоров",
+              "rating": 2.4,
+              "photo": ""
+            },
+            {
+              "name": "Иван Красовский",
+              "rating": 3.12,
+              "photo": "images/Иван_Красовский.jpg"
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "tier": "silver",
+          "players": [
+            {
               "name": "Артём Михайлов",
               "rating": 2.11,
-              "photo": ""
+              "photo": "images/Артем_Михайлов.JPG"
             },
             {
               "name": "Дмитрий Горохов",
               "rating": 3.05,
-              "photo": ""
+              "photo": "images/Дмитрий_Горохов.jpg"
             }
           ]
         },
@@ -113,7 +129,7 @@
             {
               "name": "Павел Туманов",
               "rating": 2.54,
-              "photo": ""
+              "photo": "images/Павел_Туманов.jpg"
             }
           ]
         },
@@ -210,7 +226,7 @@
               "rating": 3.6
             },
             {
-              "name": "Александр Мулин",
+              "name": "Александр Муллин",
               "photo": "images/Саша_Мулин.jpg",
               "rating": 4.2
             }
@@ -319,12 +335,12 @@
             {
               "name": "Светлана Баумова",
               "rating": 1.46,
-              "photo": ""
+              "photo": "images/Светлана_Баумова.jpg"
             },
             {
               "name": "Виктория Баркова",
               "rating": 1.89,
-              "photo": ""
+              "photo": "images/Виктория_Баркова.jpg"
             }
           ]
         },
