@@ -284,6 +284,22 @@
           "type": "team"
         },
         {
+          "players": [
+            {
+              "name": "Артур Геворгов",
+              "rating": 4.0,
+              "photo": ""
+            },
+            {
+              "name": "Виолетта Хисамова",
+              "photo": "",
+              "rating": 3.6
+            }
+          ],
+          "tier": "gold",
+          "type": "team"
+        },
+        {
           "type": "cta",
           "tier": "all",
           "title": "Присоединиться к сезону",
