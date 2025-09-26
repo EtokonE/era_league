@@ -236,6 +236,23 @@
           ]
         },
         {
+          "type": "solo",
+          "tier": "gold",
+          "note": "Ищет партнёра",
+          "noteType": "looking",
+          "statuses": [
+            "Свободна для партнёра",
+            "Свяжитесь с координатором ERA"
+          ],
+          "players": [
+            {
+              "name": "Андрей Гаврилов",
+              "rating": 3.85,
+              "photo": ""
+            }
+          ]
+        },
+        {
           "players": [
             {
               "name": "Артем Погодин",
@@ -298,6 +315,22 @@
           ],
           "tier": "gold",
           "type": "team"
+        },
+        {
+          "type": "team",
+          "tier": "gold",
+          "players": [
+            {
+              "name": "Александр Коромыслов",
+              "rating": 3.14,
+              "photo": ""
+            },
+            {
+              "name": "Егор Круглов",
+              "rating": 4.26,
+              "photo": ""
+            }
+          ]
         },
         {
           "type": "cta",
@@ -435,6 +468,21 @@
               "name": "Маргарита Провоторова",
               "rating": 1.0,
               "photo": "images/Маргарита_Провоторова.jpg"
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "players": [
+            {
+              "name": "Александр Воронин",
+              "rating": 2.0,
+              "photo": "images/Александр_Воронин.jpg"
+            },
+            {
+              "name": "Надежда Шипова",
+              "rating": 1.3,
+              "photo": "images/Надежда_Шипова.jpg"
             }
           ]
         },
