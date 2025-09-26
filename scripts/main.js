@@ -18,6 +18,56 @@
 
   let lastLightboxTrigger = null;
 
+  const hasOwn = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
+
+  const DEFAULT_SOLO_NOTE = 'Ищет партнёра';
+  const DEFAULT_SOLO_NOTE_TYPE = 'looking';
+  const DEFAULT_SOLO_STATUSES = [
+    'Свободна для партнёра',
+    'Свяжитесь с координатором ERA'
+  ];
+
+  const deriveEntryType = (entry) => {
+    if (!entry) {
+      return null;
+    }
+    if (entry.type === 'cta') {
+      return 'cta';
+    }
+    const players = Array.isArray(entry.players) ? entry.players : [];
+    return players.length <= 1 ? 'solo' : 'team';
+  };
+
+  const applySoloDefaults = (entry) => {
+    if (!entry || entry.type !== 'solo') {
+      return entry;
+    }
+    const hasNote = typeof entry.note === 'string' && entry.note.trim() !== '';
+    const statuses = Array.isArray(entry.statuses) ? entry.statuses.filter(Boolean) : [];
+    if (hasNote && statuses.length) {
+      return entry;
+    }
+    return {
+      ...entry,
+      note: hasNote ? entry.note : DEFAULT_SOLO_NOTE,
+      noteType: entry.noteType || DEFAULT_SOLO_NOTE_TYPE,
+      statuses: statuses.length ? statuses : DEFAULT_SOLO_STATUSES.slice()
+    };
+  };
+
+  const normalizeEntry = (entry) => {
+    if (!entry || entry.type === 'cta') {
+      return entry;
+    }
+    const players = Array.isArray(entry.players) ? entry.players : [];
+    const type = deriveEntryType(entry) || 'team';
+    return applySoloDefaults({
+      ...entry,
+      players,
+      type
+    });
+  };
+
   const formatRating = (value) => {
     if (typeof value !== 'number' || Number.isNaN(value)) {
       return '—';
@@ -180,6 +230,13 @@
       return entry;
     }
 
+    const hasManualTier = hasOwn(entry, 'tier')
+      && typeof entry.tier === 'string'
+      && entry.tier.trim() !== '';
+    if (hasManualTier) {
+      return entry;
+    }
+
     const players = Array.isArray(entry.players) ? entry.players : [];
     const average = computeAverageRating(players);
     if (average === null) {
@@ -232,9 +289,11 @@
     const hasGroups = Array.isArray(division.groups) && division.groups.length > 0;
     const activeGroup = state.activeGroup[division.id];
 
+    const normalizedEntries = entries.map(normalizeEntry);
+
     const assignedEntries = hasGroups
-      ? entries.map((entry) => assignGroupTier(entry, division))
-      : entries;
+      ? normalizedEntries.map((entry) => assignGroupTier(entry, division))
+      : normalizedEntries;
 
     const filtered = assignedEntries.filter((entry) => matchesGroup(entry, activeGroup, hasGroups));
     const teams = [];
