@@ -348,6 +348,22 @@
           ]
         },
         {
+          "type": "solo",
+          "note": "Ищет напарницу",
+          "noteType": "looking",
+          "statuses": [
+            "Готова к подбору",
+            "Добавьте контакты в заявке"
+          ],
+          "players": [
+            {
+              "name": "Мария Корсакова",
+              "rating": 1.85,
+              "photo": "images/Мария_Корсакова.jpg"
+            }
+          ]
+        },
+        {
           "type": "team",
           "players": [
             {
