@@ -21,8 +21,6 @@
       },
       "entries": [
         {
-          "type": "team",
-          "tier": "gold",
           "players": [
             {
               "name": "Максим Калинин",
@@ -37,8 +35,6 @@
           ]
         },
         {
-          "type": "team",
-          "tier": "silver",
           "players": [
             {
               "name": "Стас Зотов",
@@ -53,8 +49,6 @@
           ]
         },
         {
-          "type": "team",
-          "tier": "silver",
           "players": [
             {
               "name": "Тимур Чарыев",
@@ -69,8 +63,6 @@
           ]
         },
         {
-          "type": "team",
-          "tier": "silver",
           "players": [
             {
               "name": "Сергей Шевелев",
@@ -85,8 +77,6 @@
           ]
         },
         {
-          "type": "team",
-          "tier": "silver",
           "players": [
             {
               "name": "Максим Прохоров",
@@ -101,8 +91,6 @@
           ]
         },
         {
-          "type": "team",
-          "tier": "silver",
           "players": [
             {
               "name": "Артём Михайлов",
@@ -117,14 +105,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "silver",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Павел Туманов",
@@ -134,14 +114,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "silver",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Арсений Селиванов",
@@ -157,59 +129,27 @@
               "photo": "images/Владимир_Счастливый.jpg",
               "rating": 1.82
             }
-          ],
-          "tier": "silver",
-          "type": "solo",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
           ]
         },
         {
-          "type": "solo",
-          "tier": "silver",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Никита Марзаев",
-              "rating": 3.30,
+              "rating": 3.3,
               "photo": "images/Никита_Марзаев.jpg"
             }
           ]
         },
         {
-          "type": "solo",
-          "tier": "silver",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Евгений Макаров",
-              "rating": 2.60,
+              "rating": 2.6,
               "photo": "images/Евгений_Макаров.jpg"
             }
           ]
         },
         {
-          "type": "solo",
-          "tier": "silver",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Артём Субботин",
@@ -219,14 +159,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "gold",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Рита Сизова",
@@ -236,14 +168,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "gold",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Андрей Гаврилов",
@@ -253,14 +177,6 @@
           ]
         },
         {
-          "type": "solo",
-          "tier": "gold",
-          "note": "Ищет партнёра",
-          "noteType": "looking",
-          "statuses": [
-            "Свободна для партнёра",
-            "Свяжитесь с координатором ERA"
-          ],
           "players": [
             {
               "name": "Роман Самохвалов",
@@ -281,9 +197,7 @@
               "photo": "images/Саша_Мулин.jpg",
               "rating": 4.2
             }
-          ],
-          "tier": "gold",
-          "type": "team"
+          ]
         },
         {
           "players": [
@@ -297,9 +211,7 @@
               "photo": "",
               "rating": 2.9
             }
-          ],
-          "tier": "silver",
-          "type": "team"
+          ]
         },
         {
           "players": [
@@ -313,9 +225,7 @@
               "photo": "images/Денис_Гаджиев.jpg",
               "rating": 3.9
             }
-          ],
-          "tier": "gold",
-          "type": "team"
+          ]
         },
         {
           "players": [
@@ -329,13 +239,9 @@
               "photo": "images/Виолетта_Хисамова.jpg",
               "rating": 3.6
             }
-          ],
-          "tier": "gold",
-          "type": "team"
+          ]
         },
         {
-          "type": "team",
-          "tier": "gold",
           "players": [
             {
               "name": "Александр Коромыслов",
@@ -367,7 +273,6 @@
       "subtitle": "Женские пары и одиночные заявки",
       "entries": [
         {
-          "type": "team",
           "players": [
             {
               "name": "Серафима Кардакова",
@@ -382,9 +287,7 @@
           ]
         },
         {
-          "type": "solo",
           "note": "Ищет напарницу",
-          "noteType": "looking",
           "statuses": [
             "Готова к подбору",
             "Добавьте контакты в заявке"
@@ -398,7 +301,6 @@
           ]
         },
         {
-          "type": "team",
           "players": [
             {
               "name": "Мария Корсакова",
@@ -413,7 +315,6 @@
           ]
         },
         {
-          "type": "team",
           "players": [
             {
               "name": "Кокоркина Кристина",
@@ -428,7 +329,6 @@
           ]
         },
         {
-          "type": "team",
           "players": [
             {
               "name": "Светлана Баумова",
@@ -459,7 +359,6 @@
       "subtitle": "Идеален для микс-пар разного уровня",
       "entries": [
         {
-          "type": "team",
           "players": [
             {
               "name": "Максим Калинин",
@@ -474,7 +373,6 @@
           ]
         },
         {
-          "type": "team",
           "players": [
             {
               "name": "Степан Осипов",
@@ -489,7 +387,6 @@
           ]
         },
         {
-          "type": "team",
           "players": [
             {
               "name": "Александр Воронин",
