@@ -271,6 +271,20 @@
           ]
         },
         {
+          "players": [
+            {
+              "name": "Даниил Лебедев",
+              "rating": 2.8,
+              "photo": ""
+            },
+            {
+              "name": "Всеволод Сальников",
+              "rating": 1.85,
+              "photo": ""
+            }
+          ]
+        },
+        {
           "type": "cta",
           "tier": "all",
           "title": "Присоединиться к сезону",
@@ -440,6 +454,20 @@
               "name": "Алёна Томышева",
               "rating": 3.08,
               "photo": "images/Алена_Томышева2.jpg"
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "name": "Алексей Федоров",
+              "rating": 2.9,
+              "photo": "images/Alexey_Fedorov.jpg"
+            },
+            {
+              "name": "Екатерина Федорова",
+              "rating": 1.47,
+              "photo": ""
             }
           ]
         },
